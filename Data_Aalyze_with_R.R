@@ -91,5 +91,5 @@ summary(mtcars$wt)
 # (iv) Descriptive statistics of the variable wt for each engine type
 by(mtcars$wt, mtcars$vs, summary)
 
-# (v) Deciles of the variable hp
+# (v) Deciles of the variable hp   
 quantile(mtcars$hp, probs=seq(0, 1, by=0.1))
